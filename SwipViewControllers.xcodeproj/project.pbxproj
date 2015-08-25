@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B521C0551B8C7B1F001E9B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0541B8C7B1F001E9B99 /* main.m */; };
+		B521C0581B8C7B1F001E9B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0571B8C7B1F001E9B99 /* AppDelegate.m */; };
+		B521C05E1B8C7B1F001E9B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B521C05C1B8C7B1F001E9B99 /* Main.storyboard */; };
+		B521C0601B8C7B1F001E9B99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B521C05F1B8C7B1F001E9B99 /* Images.xcassets */; };
+		B521C0631B8C7B1F001E9B99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */; };
+		B521C07A1B8C7BF8001E9B99 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0791B8C7BF8001E9B99 /* FourthViewController.m */; };
+		B521C07D1B8C7C03001E9B99 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C07C1B8C7C03001E9B99 /* MainViewController.m */; };
+		B521C0861B8C7C14001E9B99 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C07F1B8C7C14001E9B99 /* SecondViewController.m */; };
+		B521C0871B8C7C14001E9B99 /* SwipeViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0811B8C7C14001E9B99 /* SwipeViewControllers.m */; };
+		B521C0881B8C7C14001E9B99 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0831B8C7C14001E9B99 /* ThirdViewController.m */; };
+		B521C0891B8C7C14001E9B99 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0851B8C7C14001E9B99 /* TopViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B521C04F1B8C7B1F001E9B99 /* SwipViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B521C0531B8C7B1F001E9B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B521C0541B8C7B1F001E9B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B521C0561B8C7B1F001E9B99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B521C0571B8C7B1F001E9B99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B521C05D1B8C7B1F001E9B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B521C05F1B8C7B1F001E9B99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B521C0621B8C7B1F001E9B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B521C0781B8C7BF8001E9B99 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		B521C0791B8C7BF8001E9B99 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		B521C07B1B8C7C03001E9B99 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B521C07C1B8C7C03001E9B99 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B521C07E1B8C7C14001E9B99 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B521C07F1B8C7C14001E9B99 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B521C0801B8C7C14001E9B99 /* SwipeViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewControllers.h; sourceTree = "<group>"; };
+		B521C0811B8C7C14001E9B99 /* SwipeViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewControllers.m; sourceTree = "<group>"; };
+		B521C0821B8C7C14001E9B99 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		B521C0831B8C7C14001E9B99 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B521C0841B8C7C14001E9B99 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		B521C0851B8C7C14001E9B99 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B521C04C1B8C7B1F001E9B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B521C0461B8C7B1F001E9B99 = {
+			isa = PBXGroup;
+			children = (
+				B521C0511B8C7B1F001E9B99 /* SwipViewControllers */,
+				B521C0501B8C7B1F001E9B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B521C0501B8C7B1F001E9B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B521C04F1B8C7B1F001E9B99 /* SwipViewControllers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B521C0511B8C7B1F001E9B99 /* SwipViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B521C0801B8C7C14001E9B99 /* SwipeViewControllers.h */,
+				B521C0811B8C7C14001E9B99 /* SwipeViewControllers.m */,
+				B521C05C1B8C7B1F001E9B99 /* Main.storyboard */,
+				B521C0561B8C7B1F001E9B99 /* AppDelegate.h */,
+				B521C0571B8C7B1F001E9B99 /* AppDelegate.m */,
+				B521C07B1B8C7C03001E9B99 /* MainViewController.h */,
+				B521C07C1B8C7C03001E9B99 /* MainViewController.m */,
+				B521C0841B8C7C14001E9B99 /* TopViewController.h */,
+				B521C0851B8C7C14001E9B99 /* TopViewController.m */,
+				B521C07E1B8C7C14001E9B99 /* SecondViewController.h */,
+				B521C07F1B8C7C14001E9B99 /* SecondViewController.m */,
+				B521C0821B8C7C14001E9B99 /* ThirdViewController.h */,
+				B521C0831B8C7C14001E9B99 /* ThirdViewController.m */,
+				B521C0781B8C7BF8001E9B99 /* FourthViewController.h */,
+				B521C0791B8C7BF8001E9B99 /* FourthViewController.m */,
+				B521C05F1B8C7B1F001E9B99 /* Images.xcassets */,
+				B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */,
+				B521C0521B8C7B1F001E9B99 /* Supporting Files */,
+			);
+			path = SwipViewControllers;
+			sourceTree = "<group>";
+		};
+		B521C0521B8C7B1F001E9B99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B521C0531B8C7B1F001E9B99 /* Info.plist */,
+				B521C0541B8C7B1F001E9B99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B521C04E1B8C7B1F001E9B99 /* SwipViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B521C0721B8C7B1F001E9B99 /* Build configuration list for PBXNativeTarget "SwipViewControllers" */;
+			buildPhases = (
+				B521C04B1B8C7B1F001E9B99 /* Sources */,
+				B521C04C1B8C7B1F001E9B99 /* Frameworks */,
+				B521C04D1B8C7B1F001E9B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipViewControllers;
+			productName = SwipViewControllers;
+			productReference = B521C04F1B8C7B1F001E9B99 /* SwipViewControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B521C0471B8C7B1F001E9B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Masahito Mizogaki";
+				TargetAttributes = {
+					B521C04E1B8C7B1F001E9B99 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B521C04A1B8C7B1F001E9B99 /* Build configuration list for PBXProject "SwipViewControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B521C0461B8C7B1F001E9B99;
+			productRefGroup = B521C0501B8C7B1F001E9B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B521C04E1B8C7B1F001E9B99 /* SwipViewControllers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B521C04D1B8C7B1F001E9B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B521C05E1B8C7B1F001E9B99 /* Main.storyboard in Resources */,
+				B521C0631B8C7B1F001E9B99 /* LaunchScreen.xib in Resources */,
+				B521C0601B8C7B1F001E9B99 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B521C04B1B8C7B1F001E9B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B521C0891B8C7C14001E9B99 /* TopViewController.m in Sources */,
+				B521C0861B8C7C14001E9B99 /* SecondViewController.m in Sources */,
+				B521C07A1B8C7BF8001E9B99 /* FourthViewController.m in Sources */,
+				B521C0581B8C7B1F001E9B99 /* AppDelegate.m in Sources */,
+				B521C0551B8C7B1F001E9B99 /* main.m in Sources */,
+				B521C07D1B8C7C03001E9B99 /* MainViewController.m in Sources */,
+				B521C0871B8C7C14001E9B99 /* SwipeViewControllers.m in Sources */,
+				B521C0881B8C7C14001E9B99 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B521C05C1B8C7B1F001E9B99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B521C05D1B8C7B1F001E9B99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B521C0621B8C7B1F001E9B99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B521C0701B8C7B1F001E9B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B521C0711B8C7B1F001E9B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B521C0731B8C7B1F001E9B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipViewControllers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B521C0741B8C7B1F001E9B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipViewControllers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B521C04A1B8C7B1F001E9B99 /* Build configuration list for PBXProject "SwipViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B521C0701B8C7B1F001E9B99 /* Debug */,
+				B521C0711B8C7B1F001E9B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B521C0721B8C7B1F001E9B99 /* Build configuration list for PBXNativeTarget "SwipViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B521C0731B8C7B1F001E9B99 /* Debug */,
+				B521C0741B8C7B1F001E9B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B521C0471B8C7B1F001E9B99 /* Project object */;
+}
