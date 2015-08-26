@@ -24,9 +24,10 @@
     gradient.frame = self.view.bounds;
     gradient.colors = @[
                         (id)[[UIColor colorWithRed:0.955 green:0.967 blue:1.000 alpha:0.970] CGColor],
-                        (id)[[UIColor colorWithRed:0.022 green:1.000 blue:0.445 alpha:1.000] CGColor]
+                        (id)[[UIColor colorWithRed:0.955 green:0.967 blue:1.000 alpha:0.970] CGColor],
+                        (id)[[UIColor colorWithWhite:0.400 alpha:1.000] CGColor]
                         ];
-    [self.view.layer insertSublayer: gradient atIndex: 0];;
+    [self.view.layer insertSublayer: gradient atIndex: 0];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
