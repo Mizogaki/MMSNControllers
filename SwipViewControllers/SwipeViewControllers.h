@@ -15,9 +15,9 @@
 @interface SwipeViewControllers : UINavigationController <UIPageViewControllerDelegate,UIPageViewControllerDataSource,UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *viewControllerArray;
-@property (nonatomic, weak) id<SwipeViewControllersDelegate> swipiDelegate;
-@property (nonatomic, strong)UIPageViewController *pageController;
-@property (nonatomic, strong)UIView *navigationView;
-@property (nonatomic, strong)NSArray *buttonText;
+@property (nonatomic, weak) id <SwipeViewControllersDelegate> swipiDelegate;
+@property (nonatomic, strong) UIPageViewController *pageController;
+@property (nonatomic, strong) UIView *navigationView;
+@property (nonatomic, strong) NSArray *buttonText;
 
 @end

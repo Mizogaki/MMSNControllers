@@ -7,6 +7,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SecoundTableViewController : UIViewController
 
 @end

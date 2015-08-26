@@ -9,7 +9,7 @@
 #import "SwipeViewControllers.h"
 #import "MainViewController.h"
 #import "TopViewController.h"
-#import "SecondViewController.h"
+#import "SecoundTableViewController.h"
 #import "ThirdViewController.h"
 #import "FourthViewController.h"
 
@@ -27,13 +27,15 @@
     SwipeViewControllers *navigationController = [[SwipeViewControllers alloc]initWithRootViewController:pageController];
     
     UIViewController *topVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([TopViewController class])];
-    UIViewController *secoundVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([SecondViewController class])];
+    UIViewController *secoundVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([SecoundTableViewController class])];
     UIViewController *thirdVC= [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([ThirdViewController class])];
     UIViewController *fourthVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([FourthViewController class])];
     
     [navigationController.viewControllerArray addObjectsFromArray:@[topVC,secoundVC,thirdVC,fourthVC]];
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    appDelegate.window.backgroundColor = [UIColor whiteColor];
     appDelegate.window.rootViewController = navigationController;
     
 }
+
 @end

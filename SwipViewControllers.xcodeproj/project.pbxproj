@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50B340E1B8D74F900F7EC4D /* SecoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B340D1B8D74F900F7EC4D /* SecoundViewController.m */; };
+		B50B34111B8D938000F7EC4D /* TransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B34101B8D938000F7EC4D /* TransparentToolbar.m */; };
 		B521C0551B8C7B1F001E9B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0541B8C7B1F001E9B99 /* main.m */; };
 		B521C0581B8C7B1F001E9B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0571B8C7B1F001E9B99 /* AppDelegate.m */; };
 		B521C05E1B8C7B1F001E9B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B521C05C1B8C7B1F001E9B99 /* Main.storyboard */; };
@@ -14,13 +16,17 @@
 		B521C0631B8C7B1F001E9B99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */; };
 		B521C07A1B8C7BF8001E9B99 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0791B8C7BF8001E9B99 /* FourthViewController.m */; };
 		B521C07D1B8C7C03001E9B99 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C07C1B8C7C03001E9B99 /* MainViewController.m */; };
-		B521C0861B8C7C14001E9B99 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C07F1B8C7C14001E9B99 /* SecondViewController.m */; };
+		B521C0861B8C7C14001E9B99 /* SecoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C07F1B8C7C14001E9B99 /* SecoundTableViewController.m */; };
 		B521C0871B8C7C14001E9B99 /* SwipeViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0811B8C7C14001E9B99 /* SwipeViewControllers.m */; };
 		B521C0881B8C7C14001E9B99 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0831B8C7C14001E9B99 /* ThirdViewController.m */; };
 		B521C0891B8C7C14001E9B99 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0851B8C7C14001E9B99 /* TopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50B340C1B8D74F900F7EC4D /* SecoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundViewController.h; sourceTree = "<group>"; };
+		B50B340D1B8D74F900F7EC4D /* SecoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundViewController.m; sourceTree = "<group>"; };
+		B50B340F1B8D938000F7EC4D /* TransparentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentToolbar.h; sourceTree = "<group>"; };
+		B50B34101B8D938000F7EC4D /* TransparentToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentToolbar.m; sourceTree = "<group>"; };
 		B521C04F1B8C7B1F001E9B99 /* SwipViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B521C0531B8C7B1F001E9B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B521C0541B8C7B1F001E9B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,8 +39,8 @@
 		B521C0791B8C7BF8001E9B99 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		B521C07B1B8C7C03001E9B99 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B521C07C1B8C7C03001E9B99 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B521C07E1B8C7C14001E9B99 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B521C07F1B8C7C14001E9B99 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B521C07E1B8C7C14001E9B99 /* SecoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundTableViewController.h; sourceTree = "<group>"; };
+		B521C07F1B8C7C14001E9B99 /* SecoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundTableViewController.m; sourceTree = "<group>"; };
 		B521C0801B8C7C14001E9B99 /* SwipeViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewControllers.h; sourceTree = "<group>"; };
 		B521C0811B8C7C14001E9B99 /* SwipeViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewControllers.m; sourceTree = "<group>"; };
 		B521C0821B8C7C14001E9B99 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
@@ -82,12 +88,16 @@
 				B521C07C1B8C7C03001E9B99 /* MainViewController.m */,
 				B521C0841B8C7C14001E9B99 /* TopViewController.h */,
 				B521C0851B8C7C14001E9B99 /* TopViewController.m */,
-				B521C07E1B8C7C14001E9B99 /* SecondViewController.h */,
-				B521C07F1B8C7C14001E9B99 /* SecondViewController.m */,
+				B521C07E1B8C7C14001E9B99 /* SecoundTableViewController.h */,
+				B521C07F1B8C7C14001E9B99 /* SecoundTableViewController.m */,
+				B50B340C1B8D74F900F7EC4D /* SecoundViewController.h */,
+				B50B340D1B8D74F900F7EC4D /* SecoundViewController.m */,
 				B521C0821B8C7C14001E9B99 /* ThirdViewController.h */,
 				B521C0831B8C7C14001E9B99 /* ThirdViewController.m */,
 				B521C0781B8C7BF8001E9B99 /* FourthViewController.h */,
 				B521C0791B8C7BF8001E9B99 /* FourthViewController.m */,
+				B50B340F1B8D938000F7EC4D /* TransparentToolbar.h */,
+				B50B34101B8D938000F7EC4D /* TransparentToolbar.m */,
 				B521C05F1B8C7B1F001E9B99 /* Images.xcassets */,
 				B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */,
 				B521C0521B8C7B1F001E9B99 /* Supporting Files */,
@@ -176,12 +186,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B521C0891B8C7C14001E9B99 /* TopViewController.m in Sources */,
-				B521C0861B8C7C14001E9B99 /* SecondViewController.m in Sources */,
+				B521C0861B8C7C14001E9B99 /* SecoundTableViewController.m in Sources */,
 				B521C07A1B8C7BF8001E9B99 /* FourthViewController.m in Sources */,
 				B521C0581B8C7B1F001E9B99 /* AppDelegate.m in Sources */,
 				B521C0551B8C7B1F001E9B99 /* main.m in Sources */,
 				B521C07D1B8C7C03001E9B99 /* MainViewController.m in Sources */,
+				B50B34111B8D938000F7EC4D /* TransparentToolbar.m in Sources */,
 				B521C0871B8C7C14001E9B99 /* SwipeViewControllers.m in Sources */,
+				B50B340E1B8D74F900F7EC4D /* SecoundViewController.m in Sources */,
 				B521C0881B8C7C14001E9B99 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
