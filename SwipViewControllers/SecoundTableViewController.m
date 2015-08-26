@@ -6,12 +6,11 @@
 //  Copyright (c) 2014 Mizogaki Masahito. All rights reserved.
 
 #import "SecoundTableViewController.h"
-#import "TransparentToolbar.h"
 
-@interface SecoundTableViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface SecoundTableViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *secoundTableView;
-
+@property (weak, nonatomic) IBOutlet UIButton *topButton;
 
 @end
 
@@ -19,7 +18,8 @@
 
 - (void)viewDidLoad {
     
-
+    self.secoundTableView.delegate = self;
+    self.secoundTableView.dataSource = self;
 }
 
 
@@ -28,28 +28,21 @@
     [super viewWillDisappear:animated];
 }
 
-#pragma mark - UITableViewDelegate / numberOfSectionsInTableView (セクションの項目数を返す)
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
     return 1;
 }
 
-
-#pragma mark - UITableViewDelegate / titleForHeaderInSection (指定されたセクションのセクション名を返す)
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     
-    return @"";
+    return @" ";
 }
 
-
-#pragma mark - UITableViewDelegate / numberOfRowsInSection (全体のセクションの数を返す)
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return 10;
 }
 
-
-#pragma mark - UITableViewDelegate / cellForRowAtIndexPath (指定したインデックスパスのセルを作成し，そのインスタンスを返す)
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell* cell = [self.secoundTableView dequeueReusableCellWithIdentifier:@"cell"];
@@ -57,21 +50,21 @@
 }
 
 
-#pragma mark - UITableViewDelegate / didSelectRowAtIndexPath (セルを選択した時に実行される)
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-}
-
-- (IBAction)backTopView:(id)sender {
-    
-    NSIndexPath *index = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.secoundTableView scrollToRowAtIndexPath:index atScrollPosition:UITableViewScrollPositionNone animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
 }
+
+- (IBAction)topCellButton:(id)sender {
+    
+    [self.secoundTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
+                                 atScrollPosition:UITableViewScrollPositionTop animated:YES];
+}
+
 
 @end
