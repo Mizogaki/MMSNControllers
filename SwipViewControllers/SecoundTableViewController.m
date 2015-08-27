@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Mizogaki Masahito. All rights reserved.
 
 #import "SecoundTableViewController.h"
+#import <QuartzCore/QuartzCore.h>
+
 
 @interface SecoundTableViewController ()
 
@@ -20,6 +22,9 @@
     
     self.secoundTableView.delegate = self;
     self.secoundTableView.dataSource = self;
+    
+    self.topButton.layer.cornerRadius = 22.5;
+    self.topButton.clipsToBounds = true;
 }
 
 

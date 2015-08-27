@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
@@ -111,11 +112,11 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQ5-6r-Ck7">
-                                <rect key="frame" x="238" y="496" width="66" height="58"/>
+                                <rect key="frame" x="258" y="505" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.99749447601010099" blue="0.439960782442403" alpha="0.31" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="9AA-4V-vfO"/>
-                                    <constraint firstAttribute="width" constant="66" id="QLg-Bk-3Un"/>
+                                    <constraint firstAttribute="height" constant="50" id="9AA-4V-vfO"/>
+                                    <constraint firstAttribute="width" constant="50" id="QLg-Bk-3Un"/>
                                 </constraints>
                                 <state key="normal" title="Top">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -129,10 +130,10 @@
                         <constraints>
                             <constraint firstItem="CS1-9N-7se" firstAttribute="top" secondItem="td6-l1-jWJ" secondAttribute="bottom" id="9Id-Aa-xVx"/>
                             <constraint firstAttribute="trailing" secondItem="td6-l1-jWJ" secondAttribute="trailing" id="Aah-KV-qWG"/>
-                            <constraint firstItem="CS1-9N-7se" firstAttribute="top" secondItem="rQ5-6r-Ck7" secondAttribute="bottom" constant="14" id="Dpo-DK-5XJ"/>
+                            <constraint firstItem="CS1-9N-7se" firstAttribute="top" secondItem="rQ5-6r-Ck7" secondAttribute="bottom" constant="13" id="Dpo-DK-5XJ"/>
                             <constraint firstItem="td6-l1-jWJ" firstAttribute="leading" secondItem="uK3-n4-ipO" secondAttribute="leading" id="MOE-sU-Ofi"/>
                             <constraint firstItem="VJt-bM-qy9" firstAttribute="leading" secondItem="uK3-n4-ipO" secondAttribute="leading" id="V0g-M8-fSc"/>
-                            <constraint firstAttribute="trailing" secondItem="rQ5-6r-Ck7" secondAttribute="trailing" constant="16" id="X98-CW-qmg"/>
+                            <constraint firstAttribute="trailing" secondItem="rQ5-6r-Ck7" secondAttribute="trailing" constant="12" id="X98-CW-qmg"/>
                             <constraint firstItem="VJt-bM-qy9" firstAttribute="top" secondItem="uK3-n4-ipO" secondAttribute="top" id="XpN-V3-pRM"/>
                             <constraint firstItem="td6-l1-jWJ" firstAttribute="top" secondItem="uK3-n4-ipO" secondAttribute="top" id="Zj2-sp-60c"/>
                             <constraint firstAttribute="trailing" secondItem="VJt-bM-qy9" secondAttribute="trailing" id="n2f-9S-RUS"/>
