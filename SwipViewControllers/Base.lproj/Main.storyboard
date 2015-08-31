@@ -174,13 +174,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EL-5N-Vv7">
-                                <rect key="frame" x="-21" y="32" width="87" height="47"/>
+                                <rect key="frame" x="0.0" y="32" width="87" height="47"/>
                                 <color key="backgroundColor" red="0.0" green="0.99749447599999996" blue="0.43996078239999997" alpha="0.31" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Bxl-cU-dHb"/>
                                     <constraint firstAttribute="height" constant="47" id="HzL-HS-Irh"/>
                                     <constraint firstAttribute="width" constant="87" id="KZ6-pV-5sG"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="wr1-FO-Wt6"/>
                                 </constraints>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -223,8 +221,6 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="YQe-h3-fQS" secondAttribute="bottom" constant="12" id="0ZD-2Z-JaG"/>
-                                    <constraint firstAttribute="bottom" secondItem="qFK-br-wSX" secondAttribute="bottom" constant="12" id="6eL-8L-WA7"/>
                                     <constraint firstItem="qFK-br-wSX" firstAttribute="top" secondItem="dBR-FH-uBp" secondAttribute="top" constant="12" id="B2T-A3-XYf"/>
                                     <constraint firstAttribute="trailing" secondItem="YQe-h3-fQS" secondAttribute="trailing" id="PEX-0J-b37"/>
                                     <constraint firstItem="YQe-h3-fQS" firstAttribute="top" secondItem="dBR-FH-uBp" secondAttribute="top" constant="12" id="WfA-RV-CEv"/>
@@ -235,7 +231,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8EL-5N-Vv7" firstAttribute="leading" secondItem="j0o-IG-c7V" secondAttribute="leading" constant="-21" id="aKG-Q6-YSK"/>
+                            <constraint firstItem="8EL-5N-Vv7" firstAttribute="leading" secondItem="j0o-IG-c7V" secondAttribute="leading" id="aKG-Q6-YSK"/>
                             <constraint firstAttribute="centerY" secondItem="dBR-FH-uBp" secondAttribute="centerY" constant="-61" id="c8B-7I-SzS"/>
                             <constraint firstAttribute="centerX" secondItem="rJz-kL-VOC" secondAttribute="centerX" id="gy9-da-jUX"/>
                             <constraint firstItem="8EL-5N-Vv7" firstAttribute="top" secondItem="j0o-IG-c7V" secondAttribute="top" constant="32" id="heI-mH-ffW"/>
@@ -246,9 +242,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="B8h-iz-gNI"/>
-                    <connections>
-                        <outlet property="backButton" destination="8EL-5N-Vv7" id="uZT-jh-Y47"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Lc-jk-gcJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

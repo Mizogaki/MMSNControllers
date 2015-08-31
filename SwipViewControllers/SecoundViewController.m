@@ -11,8 +11,6 @@
 
 @interface SecoundViewController ()
 
-@property (strong, nonatomic) IBOutlet UIButton *backButton;
-
 @end
 
 @implementation SecoundViewController
@@ -29,9 +27,6 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
-    self.backButton.layer.cornerRadius = 22.5;
-    self.backButton.clipsToBounds = true;
     
     [self.view setBackgroundColor:[UIColor colorWithRed:0.978 green:1.000 blue:0.976 alpha:1.000]];
     CAGradientLayer *gradient = [CAGradientLayer layer];
