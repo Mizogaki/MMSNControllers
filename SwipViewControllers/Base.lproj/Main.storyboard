@@ -73,7 +73,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </containerView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="181" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="VJt-bM-qy9">
-                                <rect key="frame" x="0.0" y="-5" width="320" height="575"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
@@ -131,10 +131,10 @@
                             <constraint firstItem="td6-l1-jWJ" firstAttribute="leading" secondItem="uK3-n4-ipO" secondAttribute="leading" id="MOE-sU-Ofi"/>
                             <constraint firstItem="VJt-bM-qy9" firstAttribute="leading" secondItem="uK3-n4-ipO" secondAttribute="leading" id="V0g-M8-fSc"/>
                             <constraint firstAttribute="trailing" secondItem="rQ5-6r-Ck7" secondAttribute="trailing" constant="12" id="X98-CW-qmg"/>
-                            <constraint firstItem="VJt-bM-qy9" firstAttribute="top" secondItem="uK3-n4-ipO" secondAttribute="top" constant="-5" id="XpN-V3-pRM"/>
+                            <constraint firstItem="VJt-bM-qy9" firstAttribute="top" secondItem="uK3-n4-ipO" secondAttribute="top" id="XpN-V3-pRM"/>
                             <constraint firstItem="td6-l1-jWJ" firstAttribute="top" secondItem="uK3-n4-ipO" secondAttribute="top" id="Zj2-sp-60c"/>
                             <constraint firstAttribute="trailing" secondItem="VJt-bM-qy9" secondAttribute="trailing" id="n2f-9S-RUS"/>
-                            <constraint firstItem="CS1-9N-7se" firstAttribute="top" secondItem="VJt-bM-qy9" secondAttribute="bottom" constant="-2" id="w4y-BJ-jms"/>
+                            <constraint firstItem="CS1-9N-7se" firstAttribute="top" secondItem="VJt-bM-qy9" secondAttribute="bottom" id="w4y-BJ-jms"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bVe-Ej-47h"/>

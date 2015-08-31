@@ -10,19 +10,24 @@
 
 
 
-static const CGFloat HEIGHT = 60.0;
-static const CGFloat X_OFFSET = 8.0;
+
+#define Button_Background_Color [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000]
+#define Button_Title_Color [UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000]
 
 @interface SwipeViewControllers ()
 
-@property (nonatomic) UIScrollView *pageScrollView;
-@property (nonatomic) NSInteger currentPageIndex;
-@property (nonatomic) BOOL isPageScrollingFlag;
-@property (nonatomic) BOOL hasAppearedFlag;
+@property (nonatomic, strong) UIScrollView *pageScrollView;
+@property (nonatomic, assign) NSInteger currentPageIndex;
+@property (nonatomic, assign) BOOL isPageScrollingFlag;
+@property (nonatomic, assign) BOOL hasAppearedFlag;
 
 @end
 
 @implementation SwipeViewControllers
+
+static const CGFloat HEIGHT = 65.0;
+static const CGFloat X_OFFSET = 8.0;
+static const NSInteger FONT_SIZE = 19;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -79,9 +84,9 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.firstButton];
                 self.firstButton.tag = i;
                 self.firstButton.exclusiveTouch = YES;
-                [self.firstButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
+                [self.firstButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
                 [self.firstButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-                self.firstButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
+                [self.firstButton setBackgroundColor:Button_Background_Color];
                 [self.firstButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.firstButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
@@ -90,9 +95,9 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.secoundButton];
                 self.secoundButton.tag = i;
                 self.secoundButton.exclusiveTouch = YES;
-                [self.secoundButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
-                [self.secoundButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-                self.secoundButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
+                [self.secoundButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
+                [self.secoundButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+                [self.secoundButton setBackgroundColor:Button_Background_Color];
                 [self.secoundButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.secoundButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
@@ -101,9 +106,9 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.thirdButton];
                 self.thirdButton.tag = i;
                 self.thirdButton.exclusiveTouch = YES;
-                [self.thirdButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
-                [self.thirdButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-                self.thirdButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
+                [self.thirdButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
+                [self.thirdButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+                [self.thirdButton setBackgroundColor:Button_Background_Color];
                 [self.thirdButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.thirdButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
@@ -112,9 +117,9 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.fourButton];
                 self.fourButton.tag = i;
                 self.fourButton.exclusiveTouch = YES;
-                [self.fourButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
-                [self.fourButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-                self.fourButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
+                [self.fourButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
+                [self.fourButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+                [self.fourButton setBackgroundColor:Button_Background_Color];
                 [self.fourButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.fourButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
@@ -191,27 +196,27 @@ static const CGFloat X_OFFSET = 8.0;
     switch (index) {
         case 0:
             [self.firstButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [self.fourButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.secoundButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.thirdButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
+            [self.fourButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.secoundButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.thirdButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
             break;
         case 1:
             [self.secoundButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [self.firstButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.thirdButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.fourButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
+            [self.firstButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.thirdButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.fourButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
             break;
         case 2:
             [self.thirdButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [self.firstButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.secoundButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.fourButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
+            [self.firstButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.secoundButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.fourButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
             break;
         case 3:
             [self.fourButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-            [self.firstButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.secoundButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
-            [self.thirdButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
+            [self.firstButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.secoundButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
+            [self.thirdButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
             break;
     }
 }
