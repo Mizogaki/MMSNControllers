@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Mizogaki Masahito. All rights reserved.
 
 #import "SecoundTableViewController.h"
+#import "SecoundViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 
@@ -56,8 +57,9 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([SecoundViewController class])] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

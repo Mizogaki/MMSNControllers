@@ -9,9 +9,8 @@
 #import "SwipeViewControllers.h"
 
 
-static const CGFloat X_BUFFER = 0.0;
-static const CGFloat Y_BUFFER = 15.0;
-static const CGFloat HEIGHT = 45.0;
+
+static const CGFloat HEIGHT = 60.0;
 static const CGFloat X_OFFSET = 8.0;
 
 @interface SwipeViewControllers ()
@@ -20,11 +19,6 @@ static const CGFloat X_OFFSET = 8.0;
 @property (nonatomic) NSInteger currentPageIndex;
 @property (nonatomic) BOOL isPageScrollingFlag;
 @property (nonatomic) BOOL hasAppearedFlag;
-
-@property (nonatomic,strong) UIButton *firstButton;
-@property (nonatomic,strong) UIButton *secoundButton;
-@property (nonatomic,strong) UIButton *thirdButton;
-@property (nonatomic,strong) UIButton *fourButton;
 
 @end
 
@@ -69,18 +63,19 @@ static const CGFloat X_OFFSET = 8.0;
 
 
 -(void)setupSegmentButtons {
-    self.navigationView = [[UIView alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.navigationBar.frame.size.height)];
+    self.navigationView = [[UIView alloc]initWithFrame:CGRectMake(0,0,self.view.bounds.size.width,self.navigationBar.bounds.size.height)];
+    self.navigationView.backgroundColor = [UIColor whiteColor];
     
     NSInteger numControllers = [self.viewControllerArray count];
     
     if (!self.buttonText) {
-        self.buttonText = [[NSArray alloc]initWithObjects: @"TOP",@"SECOND",@"THIRD",@"FOURTH",nil];
+        self.buttonText = [[NSArray alloc]initWithObjects: @"Top",@"Secound",@"Third",@"Forth",nil];
     }
     
     for (int i = 0; i<numControllers; i++) {
         switch (i) {
             case 0:
-                self.firstButton = [[UIButton alloc]initWithFrame:CGRectMake(X_BUFFER+i*(self.view.frame.size.width-2*X_BUFFER)/numControllers-X_OFFSET, Y_BUFFER, (self.view.frame.size.width-2*X_BUFFER)/numControllers, HEIGHT)];
+                self.firstButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0, (self.view.frame.size.width)/numControllers , HEIGHT)];
                 [self.navigationView addSubview:self.firstButton];
                 self.firstButton.tag = i;
                 self.firstButton.exclusiveTouch = YES;
@@ -91,7 +86,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.firstButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
             case 1:
-                self.secoundButton = [[UIButton alloc]initWithFrame:CGRectMake(X_BUFFER+i*(self.view.frame.size.width-2*X_BUFFER)/numControllers-X_OFFSET, Y_BUFFER, (self.view.frame.size.width-2*X_BUFFER)/numControllers, HEIGHT)];
+                self.secoundButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0, (self.view.frame.size.width)/numControllers, HEIGHT)];
                 [self.navigationView addSubview:self.secoundButton];
                 self.secoundButton.tag = i;
                 self.secoundButton.exclusiveTouch = YES;
@@ -102,7 +97,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.secoundButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
             case 2:
-                self.thirdButton = [[UIButton alloc]initWithFrame:CGRectMake(X_BUFFER+i*(self.view.frame.size.width-2*X_BUFFER)/numControllers-X_OFFSET, Y_BUFFER, (self.view.frame.size.width-2*X_BUFFER)/numControllers, HEIGHT)];
+                self.thirdButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0, (self.view.frame.size.width)/numControllers, HEIGHT)];
                 [self.navigationView addSubview:self.thirdButton];
                 self.thirdButton.tag = i;
                 self.thirdButton.exclusiveTouch = YES;
@@ -113,7 +108,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.thirdButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
                 break;
             case 3:
-                self.fourButton = [[UIButton alloc]initWithFrame:CGRectMake(X_BUFFER+i*(self.view.frame.size.width-2*X_BUFFER)/numControllers-X_OFFSET, Y_BUFFER, (self.view.frame.size.width-2*X_BUFFER)/numControllers, HEIGHT)];
+                self.fourButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0, (self.view.frame.size.width)/numControllers , HEIGHT)];
                 [self.navigationView addSubview:self.fourButton];
                 self.fourButton.tag = i;
                 self.fourButton.exclusiveTouch = YES;
