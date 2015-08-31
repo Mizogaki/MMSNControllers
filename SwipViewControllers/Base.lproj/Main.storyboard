@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -161,30 +160,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9KQ-py-i0Q">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="292"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EL-5N-Vv7">
-                                        <rect key="frame" x="14" y="19" width="46" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="HzL-HS-Irh"/>
-                                            <constraint firstAttribute="width" constant="46" id="KZ6-pV-5sG"/>
-                                        </constraints>
-                                        <state key="normal" title="Back">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="backButton:" destination="gpX-aT-Vpl" eventType="touchUpInside" id="w4e-xP-oTW"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.52039148027251247" green="1" blue="0.74615044166947198" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="8EL-5N-Vv7" firstAttribute="top" secondItem="9KQ-py-i0Q" secondAttribute="top" constant="19" id="U2M-OG-zJM"/>
-                                    <constraint firstItem="8EL-5N-Vv7" firstAttribute="leading" secondItem="9KQ-py-i0Q" secondAttribute="leading" constant="14" id="VvF-a7-JIb"/>
-                                    <constraint firstAttribute="width" secondItem="9KQ-py-i0Q" secondAttribute="height" multiplier="80:73" id="nc6-2a-E5N"/>
-                                </constraints>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJz-kL-VOC">
                                 <rect key="frame" x="30" y="230" width="261" height="107"/>
                                 <constraints>
@@ -197,13 +172,27 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8EL-5N-Vv7">
+                                <rect key="frame" x="16" y="13" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Bxl-cU-dHb"/>
+                                    <constraint firstAttribute="height" constant="30" id="HzL-HS-Irh"/>
+                                    <constraint firstAttribute="width" constant="46" id="KZ6-pV-5sG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="wr1-FO-Wt6"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton:" destination="gpX-aT-Vpl" eventType="touchUpInside" id="w4e-xP-oTW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9KQ-py-i0Q" firstAttribute="top" secondItem="j0o-IG-c7V" secondAttribute="top" id="Trl-s9-BP9"/>
+                            <constraint firstItem="8EL-5N-Vv7" firstAttribute="leading" secondItem="j0o-IG-c7V" secondAttribute="leading" constant="16" id="aKG-Q6-YSK"/>
                             <constraint firstAttribute="centerX" secondItem="rJz-kL-VOC" secondAttribute="centerX" id="gy9-da-jUX"/>
-                            <constraint firstItem="9KQ-py-i0Q" firstAttribute="leading" secondItem="j0o-IG-c7V" secondAttribute="leading" id="rM0-WC-Dsx"/>
-                            <constraint firstAttribute="trailing" secondItem="9KQ-py-i0Q" secondAttribute="trailing" id="vLL-gR-m45"/>
+                            <constraint firstItem="8EL-5N-Vv7" firstAttribute="top" secondItem="j0o-IG-c7V" secondAttribute="top" constant="13" id="heI-mH-ffW"/>
                             <constraint firstAttribute="centerY" secondItem="rJz-kL-VOC" secondAttribute="centerY" id="x8v-pL-a40"/>
                         </constraints>
                     </view>
