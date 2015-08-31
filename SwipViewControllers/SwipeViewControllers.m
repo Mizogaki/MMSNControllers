@@ -11,7 +11,7 @@
 
 
 
-#define Button_Background_Color [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000]
+#define Background_Color   [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000]
 #define Button_Title_Color [UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000]
 
 @interface SwipeViewControllers ()
@@ -20,6 +20,11 @@
 @property (nonatomic, assign) NSInteger currentPageIndex;
 @property (nonatomic, assign) BOOL isPageScrollingFlag;
 @property (nonatomic, assign) BOOL hasAppearedFlag;
+
+@property (nonatomic, strong) UIButton *firstButton;
+@property (nonatomic, strong) UIButton *secoundButton;
+@property (nonatomic, strong) UIButton *thirdButton;
+@property (nonatomic, strong) UIButton *fourButton;
 
 @end
 
@@ -42,7 +47,7 @@ static const NSInteger FONT_SIZE = 19;
     
     [super viewDidLoad];
     
-    self.navigationBar.barTintColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
+    self.navigationBar.barTintColor = Background_Color;
     self.navigationBar.translucent = NO;
     self.viewControllerArray = [[NSMutableArray alloc]init];
     self.currentPageIndex = 0;
@@ -50,7 +55,7 @@ static const NSInteger FONT_SIZE = 19;
     self.hasAppearedFlag = NO;
 }
 
--(void)viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated {
     
     if (!self.hasAppearedFlag) {
         
@@ -62,12 +67,12 @@ static const NSInteger FONT_SIZE = 19;
 
 #pragma mark Customizables
 
--(UIStatusBarStyle)preferredStatusBarStyle {
+- (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
 
 
--(void)setupSegmentButtons {
+- (void)setupSegmentButtons {
     
     self.navigationView = [[UIView alloc]initWithFrame:CGRectMake(0,0,self.view.bounds.size.width,self.navigationBar.bounds.size.height)];
     
@@ -80,48 +85,49 @@ static const NSInteger FONT_SIZE = 19;
     for (int i = 0; i<numControllers; i++) {
         switch (i) {
             case 0:
-                self.firstButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0,self.view.frame.size.width/numControllers , HEIGHT)];
-                [self.navigationView addSubview:self.firstButton];
+                self.firstButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0,self.view.frame.size.width/numControllers, HEIGHT)];
                 self.firstButton.tag = i;
                 self.firstButton.exclusiveTouch = YES;
                 [self.firstButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
                 [self.firstButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-                [self.firstButton setBackgroundColor:Button_Background_Color];
+                [self.firstButton setBackgroundColor:Background_Color];
                 [self.firstButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.firstButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
+                [self.navigationView addSubview:self.firstButton];
                 break;
             case 1:
                 self.secoundButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0,self.view.frame.size.width/numControllers, HEIGHT)];
-                [self.navigationView addSubview:self.secoundButton];
                 self.secoundButton.tag = i;
                 self.secoundButton.exclusiveTouch = YES;
                 [self.secoundButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
                 [self.secoundButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
-                [self.secoundButton setBackgroundColor:Button_Background_Color];
+                [self.secoundButton setBackgroundColor:Background_Color];
                 [self.secoundButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.secoundButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
+                [self.navigationView addSubview:self.secoundButton];
                 break;
             case 2:
                 self.thirdButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0,self.view.frame.size.width/numControllers, HEIGHT)];
-                [self.navigationView addSubview:self.thirdButton];
                 self.thirdButton.tag = i;
                 self.thirdButton.exclusiveTouch = YES;
                 [self.thirdButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
                 [self.thirdButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
-                [self.thirdButton setBackgroundColor:Button_Background_Color];
+                [self.thirdButton setBackgroundColor:Background_Color];
                 [self.thirdButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.thirdButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
+                [self.navigationView addSubview:self.thirdButton];
                 break;
             case 3:
-                self.fourButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0,self.view.frame.size.width/numControllers , HEIGHT)];
+                self.fourButton = [[UIButton alloc]initWithFrame:CGRectMake(i*(self.view.frame.size.width)/numControllers-X_OFFSET,0,self.view.frame.size.width/numControllers, HEIGHT)];
                 [self.navigationView addSubview:self.fourButton];
                 self.fourButton.tag = i;
                 self.fourButton.exclusiveTouch = YES;
                 [self.fourButton.titleLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
                 [self.fourButton setTitleColor:Button_Title_Color forState:UIControlStateNormal];
-                [self.fourButton setBackgroundColor:Button_Background_Color];
+                [self.fourButton setBackgroundColor:Background_Color];
                 [self.fourButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
                 [self.fourButton setTitle:[self.buttonText objectAtIndex:i] forState:UIControlStateNormal];
+                [self.navigationView addSubview:self.fourButton];
                 break;
         }
     }
@@ -133,7 +139,7 @@ static const NSInteger FONT_SIZE = 19;
 
 #pragma mark Setup
 
--(void)setupPageViewController {
+- (void)setupPageViewController {
     
     self.pageController = (UIPageViewController*)self.topViewController;
     self.pageController.delegate = self;
@@ -143,7 +149,7 @@ static const NSInteger FONT_SIZE = 19;
 }
 
 
--(void)syncScrollView {
+- (void)syncScrollView {
     
     for (UIView* view in self.pageController.view.subviews){
         
@@ -156,7 +162,7 @@ static const NSInteger FONT_SIZE = 19;
 
 #pragma mark Movement
 
--(void)tapSegmentButtonAction:(UIButton *)button {
+- (void)tapSegmentButtonAction:(UIButton *)button {
     
     [self changeButton:button.tag];
     
@@ -187,12 +193,12 @@ static const NSInteger FONT_SIZE = 19;
 }
 
 
--(void)updateCurrentPageIndex:(int)newPageIndex {
+- (void)updateCurrentPageIndex:(int)newPageIndex {
     self.currentPageIndex = newPageIndex;
 }
 
 - (void)changeButton:(NSInteger)index {
- 
+    
     switch (index) {
         case 0:
             [self.firstButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -222,7 +228,7 @@ static const NSInteger FONT_SIZE = 19;
 }
 
 
--(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     [self changeButton:self.currentPageIndex];
 }
@@ -261,7 +267,7 @@ static const NSInteger FONT_SIZE = 19;
     return [self.viewControllerArray objectAtIndex:index];
 }
 
--(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed {
+- (void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed {
     
     if (completed) {
         self.currentPageIndex = [self.viewControllerArray indexOfObject:[pageViewController.viewControllers lastObject]];

@@ -15,9 +15,4 @@
 @property (nonatomic, strong) UIView *navigationView;
 @property (nonatomic, strong) NSArray *buttonText;
 
-@property (nonatomic, strong) UIButton *firstButton;
-@property (nonatomic, strong) UIButton *secoundButton;
-@property (nonatomic, strong) UIButton *thirdButton;
-@property (nonatomic, strong) UIButton *fourButton;
-
 @end
