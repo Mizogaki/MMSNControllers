@@ -24,7 +24,7 @@
     [super viewDidLoad];
     UIPageViewController *pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
                                                                            navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
-    SwipeViewControllers *navigationController = [[SwipeViewControllers alloc]initWithRootViewController:pageController];
+    SwipeViewControllers *navigationController = [[SwipeViewControllers alloc] initWithRootViewController:pageController];
     
     UIViewController *topVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([TopViewController class])];
     UIViewController *secoundVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([SecoundTableViewController class])];
@@ -35,8 +35,6 @@
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     appDelegate.window.backgroundColor = [UIColor whiteColor];
     appDelegate.window.rootViewController = navigationController;
-    
 }
 
 @end
-;

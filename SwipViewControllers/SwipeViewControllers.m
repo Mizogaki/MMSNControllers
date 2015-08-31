@@ -74,7 +74,7 @@ static const CGFloat X_OFFSET = 8.0;
     NSInteger numControllers = [self.viewControllerArray count];
     
     if (!self.buttonText) {
-        self.buttonText = [[NSArray alloc]initWithObjects: @"Top",@"Second",@"Third",@"Fourth",nil];
+        self.buttonText = [[NSArray alloc]initWithObjects: @"TOP",@"SECOND",@"THIRD",@"FOURTH",nil];
     }
     
     for (int i = 0; i<numControllers; i++) {
@@ -84,7 +84,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.firstButton];
                 self.firstButton.tag = i;
                 self.firstButton.exclusiveTouch = YES;
-                [self.firstButton.titleLabel setFont:[UIFont systemFontOfSize:15]];
+                [self.firstButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
                 [self.firstButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
                 self.firstButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
                 [self.firstButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -95,7 +95,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.secoundButton];
                 self.secoundButton.tag = i;
                 self.secoundButton.exclusiveTouch = YES;
-                [self.secoundButton.titleLabel setFont:[UIFont systemFontOfSize:15]];
+                [self.secoundButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
                 [self.secoundButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
                 self.secoundButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
                 [self.secoundButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -106,7 +106,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.thirdButton];
                 self.thirdButton.tag = i;
                 self.thirdButton.exclusiveTouch = YES;
-                [self.thirdButton.titleLabel setFont:[UIFont systemFontOfSize:15]];
+                [self.thirdButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
                 [self.thirdButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
                 self.thirdButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
                 [self.thirdButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -117,7 +117,7 @@ static const CGFloat X_OFFSET = 8.0;
                 [self.navigationView addSubview:self.fourButton];
                 self.fourButton.tag = i;
                 self.fourButton.exclusiveTouch = YES;
-                [self.fourButton.titleLabel setFont:[UIFont systemFontOfSize:15]];
+                [self.fourButton.titleLabel setFont:[UIFont systemFontOfSize:18]];
                 [self.fourButton setTitleColor:[UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000] forState:UIControlStateNormal];
                 self.fourButton.backgroundColor = [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000];
                 [self.fourButton addTarget:self action:@selector(tapSegmentButtonAction:) forControlEvents:UIControlEventTouchUpInside];
