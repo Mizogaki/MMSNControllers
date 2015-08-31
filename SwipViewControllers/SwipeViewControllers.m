@@ -10,8 +10,8 @@
 
 
 static const CGFloat X_BUFFER = 0.0;
-static const CGFloat Y_BUFFER = 7.0;
-static const CGFloat HEIGHT = 30.0;
+static const CGFloat Y_BUFFER = 15.0;
+static const CGFloat HEIGHT = 45.0;
 static const CGFloat X_OFFSET = 8.0;
 
 @interface SwipeViewControllers ()
@@ -74,7 +74,7 @@ static const CGFloat X_OFFSET = 8.0;
     NSInteger numControllers = [self.viewControllerArray count];
     
     if (!self.buttonText) {
-        self.buttonText = [[NSArray alloc]initWithObjects: @"TopVC",@"SecondVC",@"ThirdVC",@"FourthVC",nil];
+        self.buttonText = [[NSArray alloc]initWithObjects: @"Top",@"Second",@"Third",@"Fourth",nil];
     }
     
     for (int i = 0; i<numControllers; i++) {
