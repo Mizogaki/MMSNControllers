@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B501F0661B9588930002B0C4 /* IndexEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0651B9588930002B0C4 /* IndexEntity.m */; };
 		B50B340E1B8D74F900F7EC4D /* SecoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B340D1B8D74F900F7EC4D /* SecoundViewController.m */; };
 		B521C0551B8C7B1F001E9B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0541B8C7B1F001E9B99 /* main.m */; };
 		B521C0581B8C7B1F001E9B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0571B8C7B1F001E9B99 /* AppDelegate.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B501F0641B9588930002B0C4 /* IndexEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexEntity.h; sourceTree = "<group>"; };
+		B501F0651B9588930002B0C4 /* IndexEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexEntity.m; sourceTree = "<group>"; };
 		B50B340C1B8D74F900F7EC4D /* SecoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundViewController.h; sourceTree = "<group>"; };
 		B50B340D1B8D74F900F7EC4D /* SecoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundViewController.m; sourceTree = "<group>"; };
 		B521C04F1B8C7B1F001E9B99 /* SwipViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +81,8 @@
 			children = (
 				B521C0801B8C7C14001E9B99 /* SwipeViewControllers.h */,
 				B521C0811B8C7C14001E9B99 /* SwipeViewControllers.m */,
+				B501F0641B9588930002B0C4 /* IndexEntity.h */,
+				B501F0651B9588930002B0C4 /* IndexEntity.m */,
 				B521C05C1B8C7B1F001E9B99 /* Main.storyboard */,
 				B521C0561B8C7B1F001E9B99 /* AppDelegate.h */,
 				B521C0571B8C7B1F001E9B99 /* AppDelegate.m */,
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B521C0891B8C7C14001E9B99 /* TopViewController.m in Sources */,
+				B501F0661B9588930002B0C4 /* IndexEntity.m in Sources */,
 				B521C0861B8C7C14001E9B99 /* SecoundTableViewController.m in Sources */,
 				B521C07A1B8C7BF8001E9B99 /* FourthViewController.m in Sources */,
 				B521C0581B8C7B1F001E9B99 /* AppDelegate.m in Sources */,

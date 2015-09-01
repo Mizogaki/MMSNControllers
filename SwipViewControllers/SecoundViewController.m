@@ -8,8 +8,12 @@
 
 #import "SecoundViewController.h"
 #import "SecoundTableViewController.h"
+#import "IndexEntity.h"
 
 @interface SecoundViewController ()
+
+@property (nonatomic, assign) BOOL headerFlag;
+@property (weak, nonatomic) IBOutlet UILabel *countLabel;
 
 @end
 
@@ -40,6 +44,8 @@
                         ];
     [self.view.layer insertSublayer: gradient atIndex: 0];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
+    
+    self.countLabel.text = [NSString stringWithFormat:@"%d",[IndexEntity getViewIndex]];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -51,6 +57,12 @@
 - (void)viewWillDisappear:(BOOL)animated {
     
     [super viewWillDisappear:animated];
+    
+    if (self.headerFlag == YES) {
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }else {
+        [self.navigationController setNavigationBarHidden:NO animated:NO];
+    }
 }
 
 - (void)didReceiveMemoryWarnin {
@@ -61,15 +73,32 @@
 - (IBAction)rootBackButton:(id)sender {
     
     [self.navigationController setNavigationBarHidden:NO animated:NO];
+    [IndexEntity intWithViewIndex];
+    self.headerFlag = NO;
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
+
 - (IBAction)pushButton:(id)sender {
     
+    [IndexEntity setViewIndex:+1];
+    NSLog(@"%d",[IndexEntity getViewIndex]);
+    self.headerFlag = YES;
     [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([SecoundViewController class])] animated:YES];
 }
+
 - (IBAction)backButton:(id)sender {
     
-    [self.navigationController popViewControllerAnimated:YES];
+    if ([IndexEntity getViewIndex] == 0) {
+        [IndexEntity intWithViewIndex];
+        self.headerFlag = NO;
+        [self.navigationController popToRootViewControllerAnimated:YES];
+        
+    }else{
+        
+        [IndexEntity setViewIndex:-1];
+        self.headerFlag = YES;
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 @end
