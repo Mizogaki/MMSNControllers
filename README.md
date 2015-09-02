@@ -1,4 +1,4 @@
-# SwipViewControllers
+# SwipNavigationController
 Swipe and Button transition menu
 (スワイプとボタンで遷移できるメニュー)
 
