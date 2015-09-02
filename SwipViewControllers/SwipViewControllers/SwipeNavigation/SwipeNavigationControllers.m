@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Mizogaki Masahito. All rights reserved.
 //
 
-#import "SwipeViewControllers.h"
+#import "SwipeNavigationControllers.h"
 
 
 
@@ -14,7 +14,7 @@
 #define Background_Color   [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000]
 #define Button_Title_Color [UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000]
 
-@interface SwipeViewControllers ()
+@interface SwipeNavigationControllers ()
 
 @property (nonatomic, strong) UIScrollView *pageScrollView;
 @property (nonatomic, assign) NSInteger currentPageIndex;
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation SwipeViewControllers
+@implementation SwipeNavigationControllers
 
 static const CGFloat HEIGHT = 65.0;
 static const CGFloat X_OFFSET = 8.0;

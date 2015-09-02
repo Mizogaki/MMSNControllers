@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F8A8BFA0-55D2-4C88-BCD3-D592E3373440</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwipViewControllers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68CB6D07F1AE817B4EB2C11E269C31562A1E959F</key>
+		<string>https://github.com/MMasahito/SwipViewControllers</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwipViewControllers.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68CB6D07F1AE817B4EB2C11E269C31562A1E959F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MMasahito/SwipViewControllers</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68CB6D07F1AE817B4EB2C11E269C31562A1E959F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68CB6D07F1AE817B4EB2C11E269C31562A1E959F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwipViewControllers</string>
+		</dict>
+	</array>
+</dict>
+</plist>
