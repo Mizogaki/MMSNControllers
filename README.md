@@ -16,31 +16,25 @@ Swipe and Button transition menu
 ## With CocoaPods
  Just add this line to your podfile
  ```
- pod 'RNNBlurDialogView', '0.1.0'
+ pod 'SwipNavigationController', '0.0.1'
  ```
  ## Usage
- The simplest way to get up and running with RNNBlurDialogView is to display a default view. Inside of your view controller, write the following code:
+ The simplest way to get up and running with SwipNavigationController is to display a default view. Inside of your view controller, write the following code:
  
  ``` objective-c
- RNNBlurDialogView *modal;
- modal = [[RNNBlurDialogView alloc] initWithView:@"Test"
- topButtonTitle:@"Top\nTop"
- downButtonTile:@"Down\nDown"
- backColor:[UIColor whiteColor]
- LineColor:[UIColor colorWithRed:0.7896 green:0.7896 blue:0.7896 alpha:1.0]];
- modal.dismissButtonRight = YES;
- modal.defaultHideBlock = ^{
- NSLog(@"Code called after the modal view is hidden");
- };
- modal.topButtonTappedBlock = ^{
- NSLog(@"Top");
- };
- modal.downButtonTappedBlock = ^{
- NSLog(@"Down");
- };
+ UIPageViewController *pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
+ navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+ SwipeNavigationControllers *navigationController = [[SwipeNavigationControllers alloc] initWithRootViewController:pageController];
  
+ UIViewController *YVC_1 = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([YouViewController_1 class])];
+ UIViewController *YVC_2 = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([YouViewController_2 class])];
+ UIViewController *YVC_3 = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([YouViewController_3 class])];
+ UIViewController *YVC_4 = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([YouViewController_4 class])];
  
- [modal show];
+ [navigationController.viewControllerArray addObjectsFromArray:@[YVC_1,YVC_2,YVC_3,YVC_4]];
+ AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+ appDelegate.window.backgroundColor = [UIColor whiteColor];
+ appDelegate.window.rootViewController = navigationController;
  ``` 
  
  
