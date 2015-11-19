@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwipNavigationController"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "https://github.com/MMasahito/SwipNavigationController"
   s.homepage     = "https://github.com/MMasahito"
   s.license      = "MIT"
