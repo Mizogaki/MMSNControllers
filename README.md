@@ -18,6 +18,10 @@ Swipe and Button transition menu
  ```
  pod 'SwipNavigationController', '0.0.1'
  ```
+ ## Manual installation
+
+Super simple. Just drag & drop SwipNavigationController.h/.m into your project.
+ 
 ## Usage
  The simplest way to get up and running with SwipNavigationController is to display a default view. Inside of your view controller, write  the following code:
  
