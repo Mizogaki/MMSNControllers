@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CA6522F1BFD6F92008617F6 /* SwipeNavigationControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6522E1BFD6F92008617F6 /* SwipeNavigationControllers.m */; };
 		B501F0821B9699910002B0C4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0721B9699910002B0C4 /* FourthViewController.m */; };
 		B501F0831B9699910002B0C4 /* IndexEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0741B9699910002B0C4 /* IndexEntity.m */; };
 		B501F0841B9699910002B0C4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0761B9699910002B0C4 /* MainViewController.m */; };
@@ -14,7 +15,6 @@
 		B501F0861B9699910002B0C4 /* SecoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F07A1B9699910002B0C4 /* SecoundViewController.m */; };
 		B501F0871B9699910002B0C4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F07C1B9699910002B0C4 /* ThirdViewController.m */; };
 		B501F0881B9699910002B0C4 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F07E1B9699910002B0C4 /* TopViewController.m */; };
-		B501F0891B9699910002B0C4 /* SwipeNavigationControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0811B9699910002B0C4 /* SwipeNavigationControllers.m */; };
 		B501F08C1B969DCC0002B0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F08B1B969DCC0002B0C4 /* AppDelegate.m */; };
 		B521C0551B8C7B1F001E9B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0541B8C7B1F001E9B99 /* main.m */; };
 		B521C05E1B8C7B1F001E9B99 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B521C05C1B8C7B1F001E9B99 /* Add.storyboard */; };
@@ -23,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CA6522D1BFD6F92008617F6 /* SwipeNavigationControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeNavigationControllers.h; sourceTree = "<group>"; };
+		9CA6522E1BFD6F92008617F6 /* SwipeNavigationControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeNavigationControllers.m; sourceTree = "<group>"; };
 		B501F0711B9699910002B0C4 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		B501F0721B9699910002B0C4 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		B501F0731B9699910002B0C4 /* IndexEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexEntity.h; sourceTree = "<group>"; };
@@ -37,8 +39,6 @@
 		B501F07C1B9699910002B0C4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		B501F07D1B9699910002B0C4 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		B501F07E1B9699910002B0C4 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
-		B501F0801B9699910002B0C4 /* SwipeNavigationControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeNavigationControllers.h; sourceTree = "<group>"; };
-		B501F0811B9699910002B0C4 /* SwipeNavigationControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeNavigationControllers.m; sourceTree = "<group>"; };
 		B501F08A1B969DCC0002B0C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B501F08B1B969DCC0002B0C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B521C04F1B8C7B1F001E9B99 /* SwipNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CA6522C1BFD6F92008617F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CA6522D1BFD6F92008617F6 /* SwipeNavigationControllers.h */,
+				9CA6522E1BFD6F92008617F6 /* SwipeNavigationControllers.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B501F0701B9699910002B0C4 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +92,6 @@
 			path = Class;
 			sourceTree = "<group>";
 		};
-		B501F07F1B9699910002B0C4 /* SwipeNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				B501F0801B9699910002B0C4 /* SwipeNavigationControllers.h */,
-				B501F0811B9699910002B0C4 /* SwipeNavigationControllers.m */,
-			);
-			path = SwipeNavigation;
-			sourceTree = "<group>";
-		};
 		B521C0461B8C7B1F001E9B99 = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +111,8 @@
 		B521C0511B8C7B1F001E9B99 /* SwipViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9CA6522C1BFD6F92008617F6 /* Classes */,
 				B521C05C1B8C7B1F001E9B99 /* Add.storyboard */,
-				B501F07F1B9699910002B0C4 /* SwipeNavigation */,
 				B501F0701B9699910002B0C4 /* Class */,
 				B521C05F1B8C7B1F001E9B99 /* Images.xcassets */,
 				B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */,
@@ -203,8 +203,8 @@
 			files = (
 				B501F0821B9699910002B0C4 /* FourthViewController.m in Sources */,
 				B501F0851B9699910002B0C4 /* SecoundTableViewController.m in Sources */,
+				9CA6522F1BFD6F92008617F6 /* SwipeNavigationControllers.m in Sources */,
 				B501F0871B9699910002B0C4 /* ThirdViewController.m in Sources */,
-				B501F0891B9699910002B0C4 /* SwipeNavigationControllers.m in Sources */,
 				B501F08C1B969DCC0002B0C4 /* AppDelegate.m in Sources */,
 				B501F0831B9699910002B0C4 /* IndexEntity.m in Sources */,
 				B501F0841B9699910002B0C4 /* MainViewController.m in Sources */,

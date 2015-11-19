@@ -9,8 +9,6 @@
 #import "SwipeNavigationControllers.h"
 
 
-
-
 #define Background_Color   [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000]
 #define Button_Title_Color [UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000]
 
@@ -31,7 +29,7 @@
 @implementation SwipeNavigationControllers
 
 static const CGFloat HEIGHT = 65.0;
-static const CGFloat X_OFFSET = 8.0;
+static const CGFloat X_OFFSET = 12.0;
 static const NSInteger FONT_SIZE = 19;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
