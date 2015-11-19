@@ -18,8 +18,7 @@ Swipe and Button transition menu
  ```
  pod 'SwipNavigationController', '0.0.1'
  ```
- ## Manual installation
-
+## Manual installation
 Super simple. Just drag & drop SwipNavigationController.h/.m into your project.
  
 ## Usage
