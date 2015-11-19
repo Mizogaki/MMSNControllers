@@ -1,18 +1,35 @@
-//
-//  SwipeViewControllers.m
-//  SwipeViewControllers
-//
-//  Created by Mizogaki Masahito on 11/11/14.
-//  Copyright (c) 2014 Mizogaki Masahito. All rights reserved.
-//
+/*
+ * SwipeViewController
+ *
+ * Created by MMizogaki on 10/2/15.
+ * Copyright (c) 2015 MMizogaki . All rights reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 
-#import "SwipeNavigationControllers.h"
+#import "SwipeNavigationController.h"
 
 
 #define Background_Color   [UIColor colorWithRed:0.333 green:0.765 blue:0.706 alpha:1.000]
 #define Button_Title_Color [UIColor colorWithRed:0.110 green:0.224 blue:0.212 alpha:1.000]
 
-@interface SwipeNavigationControllers ()
+@interface SwipeNavigationController ()
 
 @property (nonatomic, strong) UIScrollView *pageScrollView;
 @property (nonatomic, assign) NSInteger currentPageIndex;
@@ -26,7 +43,7 @@
 
 @end
 
-@implementation SwipeNavigationControllers
+@implementation SwipeNavigationController
 
 static const CGFloat HEIGHT = 65.0;
 static const CGFloat X_OFFSET = 12.0;

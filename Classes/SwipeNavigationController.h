@@ -25,7 +25,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SwipeNavigationControllers : UINavigationController <UIPageViewControllerDelegate,UIPageViewControllerDataSource,UIScrollViewDelegate>
+@interface SwipeNavigationController : UINavigationController <UIPageViewControllerDelegate,UIPageViewControllerDataSource,UIScrollViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *viewControllerArray;
 @property (nonatomic, strong) UIPageViewController *pageController;

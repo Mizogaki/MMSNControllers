@@ -7,46 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CA6522F1BFD6F92008617F6 /* SwipeNavigationControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA6522E1BFD6F92008617F6 /* SwipeNavigationControllers.m */; };
-		B501F0821B9699910002B0C4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0721B9699910002B0C4 /* FourthViewController.m */; };
-		B501F0831B9699910002B0C4 /* IndexEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0741B9699910002B0C4 /* IndexEntity.m */; };
-		B501F0841B9699910002B0C4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0761B9699910002B0C4 /* MainViewController.m */; };
-		B501F0851B9699910002B0C4 /* SecoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F0781B9699910002B0C4 /* SecoundTableViewController.m */; };
-		B501F0861B9699910002B0C4 /* SecoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F07A1B9699910002B0C4 /* SecoundViewController.m */; };
-		B501F0871B9699910002B0C4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F07C1B9699910002B0C4 /* ThirdViewController.m */; };
-		B501F0881B9699910002B0C4 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F07E1B9699910002B0C4 /* TopViewController.m */; };
-		B501F08C1B969DCC0002B0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B501F08B1B969DCC0002B0C4 /* AppDelegate.m */; };
-		B521C0551B8C7B1F001E9B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B521C0541B8C7B1F001E9B99 /* main.m */; };
-		B521C05E1B8C7B1F001E9B99 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B521C05C1B8C7B1F001E9B99 /* Add.storyboard */; };
-		B521C0601B8C7B1F001E9B99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B521C05F1B8C7B1F001E9B99 /* Images.xcassets */; };
-		B521C0631B8C7B1F001E9B99 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */; };
+		9CDD93DC1BFDA0BD00BF0B64 /* SwipeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD93DB1BFDA0BD00BF0B64 /* SwipeNavigationController.m */; };
+		9CDD93F91BFDA0C400BF0B64 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93DE1BFDA0C400BF0B64 /* Add.storyboard */; };
+		9CDD93FA1BFDA0C400BF0B64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93E01BFDA0C400BF0B64 /* LaunchScreen.xib */; };
+		9CDD94041BFDA0C400BF0B64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93F61BFDA0C400BF0B64 /* Images.xcassets */; };
+		9CDD94051BFDA0C400BF0B64 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93F71BFDA0C400BF0B64 /* Info.plist */; };
+		9CDD94061BFDA0C400BF0B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD93F81BFDA0C400BF0B64 /* main.m */; };
+		9CDD94091BFDA14A00BF0B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD94081BFDA14A00BF0B64 /* AppDelegate.m */; };
+		9CDD940C1BFDA15400BF0B64 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD940B1BFDA15400BF0B64 /* FourthViewController.m */; };
+		9CDD940F1BFDA15D00BF0B64 /* IndexEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD940E1BFDA15D00BF0B64 /* IndexEntity.m */; };
+		9CDD941A1BFDA16700BF0B64 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD94111BFDA16700BF0B64 /* MainViewController.m */; };
+		9CDD941B1BFDA16700BF0B64 /* SecoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD94131BFDA16700BF0B64 /* SecoundTableViewController.m */; };
+		9CDD941C1BFDA16700BF0B64 /* SecoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD94151BFDA16700BF0B64 /* SecoundViewController.m */; };
+		9CDD941D1BFDA16700BF0B64 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD94171BFDA16700BF0B64 /* ThirdViewController.m */; };
+		9CDD941E1BFDA16700BF0B64 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD94191BFDA16700BF0B64 /* TopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CA6522D1BFD6F92008617F6 /* SwipeNavigationControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeNavigationControllers.h; sourceTree = "<group>"; };
-		9CA6522E1BFD6F92008617F6 /* SwipeNavigationControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeNavigationControllers.m; sourceTree = "<group>"; };
-		B501F0711B9699910002B0C4 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
-		B501F0721B9699910002B0C4 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		B501F0731B9699910002B0C4 /* IndexEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexEntity.h; sourceTree = "<group>"; };
-		B501F0741B9699910002B0C4 /* IndexEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexEntity.m; sourceTree = "<group>"; };
-		B501F0751B9699910002B0C4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		B501F0761B9699910002B0C4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B501F0771B9699910002B0C4 /* SecoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundTableViewController.h; sourceTree = "<group>"; };
-		B501F0781B9699910002B0C4 /* SecoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundTableViewController.m; sourceTree = "<group>"; };
-		B501F0791B9699910002B0C4 /* SecoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundViewController.h; sourceTree = "<group>"; };
-		B501F07A1B9699910002B0C4 /* SecoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundViewController.m; sourceTree = "<group>"; };
-		B501F07B1B9699910002B0C4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		B501F07C1B9699910002B0C4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		B501F07D1B9699910002B0C4 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
-		B501F07E1B9699910002B0C4 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
-		B501F08A1B969DCC0002B0C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B501F08B1B969DCC0002B0C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CDD93DA1BFDA0BD00BF0B64 /* SwipeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeNavigationController.h; sourceTree = "<group>"; };
+		9CDD93DB1BFDA0BD00BF0B64 /* SwipeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeNavigationController.m; sourceTree = "<group>"; };
+		9CDD93DF1BFDA0C400BF0B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Add.storyboard; sourceTree = "<group>"; };
+		9CDD93E11BFDA0C400BF0B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9CDD93F61BFDA0C400BF0B64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CDD93F71BFDA0C400BF0B64 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDD93F81BFDA0C400BF0B64 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CDD94071BFDA14A00BF0B64 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CDD94081BFDA14A00BF0B64 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CDD940A1BFDA15400BF0B64 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		9CDD940B1BFDA15400BF0B64 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		9CDD940D1BFDA15D00BF0B64 /* IndexEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexEntity.h; sourceTree = "<group>"; };
+		9CDD940E1BFDA15D00BF0B64 /* IndexEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexEntity.m; sourceTree = "<group>"; };
+		9CDD94101BFDA16700BF0B64 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9CDD94111BFDA16700BF0B64 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9CDD94121BFDA16700BF0B64 /* SecoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundTableViewController.h; sourceTree = "<group>"; };
+		9CDD94131BFDA16700BF0B64 /* SecoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundTableViewController.m; sourceTree = "<group>"; };
+		9CDD94141BFDA16700BF0B64 /* SecoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoundViewController.h; sourceTree = "<group>"; };
+		9CDD94151BFDA16700BF0B64 /* SecoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoundViewController.m; sourceTree = "<group>"; };
+		9CDD94161BFDA16700BF0B64 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9CDD94171BFDA16700BF0B64 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9CDD94181BFDA16700BF0B64 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		9CDD94191BFDA16700BF0B64 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		B521C04F1B8C7B1F001E9B99 /* SwipNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B521C0531B8C7B1F001E9B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B521C0541B8C7B1F001E9B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B521C05D1B8C7B1F001E9B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Add.storyboard; sourceTree = "<group>"; };
-		B521C05F1B8C7B1F001E9B99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B521C0621B8C7B1F001E9B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,42 +61,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9CA6522C1BFD6F92008617F6 /* Classes */ = {
+		9CDD93D91BFDA0BD00BF0B64 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9CA6522D1BFD6F92008617F6 /* SwipeNavigationControllers.h */,
-				9CA6522E1BFD6F92008617F6 /* SwipeNavigationControllers.m */,
+				9CDD93DA1BFDA0BD00BF0B64 /* SwipeNavigationController.h */,
+				9CDD93DB1BFDA0BD00BF0B64 /* SwipeNavigationController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B501F0701B9699910002B0C4 /* Class */ = {
+		9CDD93DD1BFDA0C400BF0B64 /* SwipNavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				B501F08A1B969DCC0002B0C4 /* AppDelegate.h */,
-				B501F08B1B969DCC0002B0C4 /* AppDelegate.m */,
-				B501F0711B9699910002B0C4 /* FourthViewController.h */,
-				B501F0721B9699910002B0C4 /* FourthViewController.m */,
-				B501F0731B9699910002B0C4 /* IndexEntity.h */,
-				B501F0741B9699910002B0C4 /* IndexEntity.m */,
-				B501F0751B9699910002B0C4 /* MainViewController.h */,
-				B501F0761B9699910002B0C4 /* MainViewController.m */,
-				B501F0771B9699910002B0C4 /* SecoundTableViewController.h */,
-				B501F0781B9699910002B0C4 /* SecoundTableViewController.m */,
-				B501F0791B9699910002B0C4 /* SecoundViewController.h */,
-				B501F07A1B9699910002B0C4 /* SecoundViewController.m */,
-				B501F07B1B9699910002B0C4 /* ThirdViewController.h */,
-				B501F07C1B9699910002B0C4 /* ThirdViewController.m */,
-				B501F07D1B9699910002B0C4 /* TopViewController.h */,
-				B501F07E1B9699910002B0C4 /* TopViewController.m */,
+				9CDD94101BFDA16700BF0B64 /* MainViewController.h */,
+				9CDD94111BFDA16700BF0B64 /* MainViewController.m */,
+				9CDD94121BFDA16700BF0B64 /* SecoundTableViewController.h */,
+				9CDD94131BFDA16700BF0B64 /* SecoundTableViewController.m */,
+				9CDD94141BFDA16700BF0B64 /* SecoundViewController.h */,
+				9CDD94151BFDA16700BF0B64 /* SecoundViewController.m */,
+				9CDD94161BFDA16700BF0B64 /* ThirdViewController.h */,
+				9CDD94171BFDA16700BF0B64 /* ThirdViewController.m */,
+				9CDD94181BFDA16700BF0B64 /* TopViewController.h */,
+				9CDD94191BFDA16700BF0B64 /* TopViewController.m */,
+				9CDD940D1BFDA15D00BF0B64 /* IndexEntity.h */,
+				9CDD940E1BFDA15D00BF0B64 /* IndexEntity.m */,
+				9CDD940A1BFDA15400BF0B64 /* FourthViewController.h */,
+				9CDD940B1BFDA15400BF0B64 /* FourthViewController.m */,
+				9CDD94071BFDA14A00BF0B64 /* AppDelegate.h */,
+				9CDD94081BFDA14A00BF0B64 /* AppDelegate.m */,
+				9CDD93DE1BFDA0C400BF0B64 /* Add.storyboard */,
+				9CDD93E01BFDA0C400BF0B64 /* LaunchScreen.xib */,
+				9CDD93F61BFDA0C400BF0B64 /* Images.xcassets */,
+				9CDD93F71BFDA0C400BF0B64 /* Info.plist */,
+				9CDD93F81BFDA0C400BF0B64 /* main.m */,
 			);
-			path = Class;
+			path = SwipNavigationControllerExample;
 			sourceTree = "<group>";
 		};
 		B521C0461B8C7B1F001E9B99 = {
 			isa = PBXGroup;
 			children = (
-				B521C0511B8C7B1F001E9B99 /* SwipViewControllers */,
+				9CDD93D91BFDA0BD00BF0B64 /* Classes */,
+				9CDD93DD1BFDA0C400BF0B64 /* SwipNavigationControllerExample */,
 				B521C0501B8C7B1F001E9B99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,28 +113,6 @@
 				B521C04F1B8C7B1F001E9B99 /* SwipNavigationController.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B521C0511B8C7B1F001E9B99 /* SwipViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				9CA6522C1BFD6F92008617F6 /* Classes */,
-				B521C05C1B8C7B1F001E9B99 /* Add.storyboard */,
-				B501F0701B9699910002B0C4 /* Class */,
-				B521C05F1B8C7B1F001E9B99 /* Images.xcassets */,
-				B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */,
-				B521C0521B8C7B1F001E9B99 /* Supporting Files */,
-			);
-			path = SwipViewControllers;
-			sourceTree = "<group>";
-		};
-		B521C0521B8C7B1F001E9B99 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B521C0531B8C7B1F001E9B99 /* Info.plist */,
-				B521C0541B8C7B1F001E9B99 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +173,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B521C05E1B8C7B1F001E9B99 /* Add.storyboard in Resources */,
-				B521C0631B8C7B1F001E9B99 /* LaunchScreen.xib in Resources */,
-				B521C0601B8C7B1F001E9B99 /* Images.xcassets in Resources */,
+				9CDD94051BFDA0C400BF0B64 /* Info.plist in Resources */,
+				9CDD94041BFDA0C400BF0B64 /* Images.xcassets in Resources */,
+				9CDD93FA1BFDA0C400BF0B64 /* LaunchScreen.xib in Resources */,
+				9CDD93F91BFDA0C400BF0B64 /* Add.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,34 +187,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B501F0821B9699910002B0C4 /* FourthViewController.m in Sources */,
-				B501F0851B9699910002B0C4 /* SecoundTableViewController.m in Sources */,
-				9CA6522F1BFD6F92008617F6 /* SwipeNavigationControllers.m in Sources */,
-				B501F0871B9699910002B0C4 /* ThirdViewController.m in Sources */,
-				B501F08C1B969DCC0002B0C4 /* AppDelegate.m in Sources */,
-				B501F0831B9699910002B0C4 /* IndexEntity.m in Sources */,
-				B501F0841B9699910002B0C4 /* MainViewController.m in Sources */,
-				B501F0861B9699910002B0C4 /* SecoundViewController.m in Sources */,
-				B521C0551B8C7B1F001E9B99 /* main.m in Sources */,
-				B501F0881B9699910002B0C4 /* TopViewController.m in Sources */,
+				9CDD941E1BFDA16700BF0B64 /* TopViewController.m in Sources */,
+				9CDD940C1BFDA15400BF0B64 /* FourthViewController.m in Sources */,
+				9CDD941A1BFDA16700BF0B64 /* MainViewController.m in Sources */,
+				9CDD941C1BFDA16700BF0B64 /* SecoundViewController.m in Sources */,
+				9CDD940F1BFDA15D00BF0B64 /* IndexEntity.m in Sources */,
+				9CDD93DC1BFDA0BD00BF0B64 /* SwipeNavigationController.m in Sources */,
+				9CDD941D1BFDA16700BF0B64 /* ThirdViewController.m in Sources */,
+				9CDD94061BFDA0C400BF0B64 /* main.m in Sources */,
+				9CDD94091BFDA14A00BF0B64 /* AppDelegate.m in Sources */,
+				9CDD941B1BFDA16700BF0B64 /* SecoundTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B521C05C1B8C7B1F001E9B99 /* Add.storyboard */ = {
+		9CDD93DE1BFDA0C400BF0B64 /* Add.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B521C05D1B8C7B1F001E9B99 /* Base */,
+				9CDD93DF1BFDA0C400BF0B64 /* Base */,
 			);
 			name = Add.storyboard;
 			sourceTree = "<group>";
 		};
-		B521C0611B8C7B1F001E9B99 /* LaunchScreen.xib */ = {
+		9CDD93E01BFDA0C400BF0B64 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B521C0621B8C7B1F001E9B99 /* Base */,
+				9CDD93E11BFDA0C400BF0B64 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
