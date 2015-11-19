@@ -9,7 +9,7 @@
 Swipe and Button transition menu
 (スワイプとボタンで遷移できるメニュー)
 
-### App Image ###
+## App Image
 ![Alt Text](https://github.com/MMasahito/SwipViewControllers/blob/master/image.gif)  
  
 
@@ -18,8 +18,8 @@ Swipe and Button transition menu
  ```
  pod 'SwipNavigationController', '0.0.1'
  ```
- ## Usage
- The simplest way to get up and running with SwipNavigationController is to display a default view. Inside of your view controller, write the following code:
+## Usage
+ The simplest way to get up and running with SwipNavigationController is to display a default view. Inside of your view controller, write  the following code:
  
  ``` objective-c
  UIPageViewController *pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
@@ -38,7 +38,7 @@ Swipe and Button transition menu
  ``` 
  
  
-### Memo ###
+## Memo
 iOS7〜iOS8 correspondence.  
 I support that until iPhone4 〜iPhone6Plus.  
 
