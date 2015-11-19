@@ -16,7 +16,7 @@ Swipe and Button transition menu
 ## With CocoaPods
  Just add this line to your podfile
  ```
- pod 'SwipNavigationController', '0.0.1'
+ pod 'SwipNavigationController', '1.0.0'
  ```
 ## Manual installation
 Super simple. Just drag & drop SwipNavigationController.h/.m into your project.
