@@ -4,8 +4,8 @@
 )](https://developer.apple.com/jp/documentation/)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
-[![Issues](https://img.shields.io/github/issues/MMasahito/SwipNavigationController.svg?style=flat
-)](https://github.com/MMasahito/SwipNavigationController/issues?state=open)
+
+
 # SwipNavigationController
 Swipe and Button transition menu
 (スワイプとボタンで遷移できるメニュー)
