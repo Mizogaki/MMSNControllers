@@ -1,5 +1,5 @@
 
-# MMSViewControllers
+# MMSNControllers
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
 )](https://developer.apple.com/iphone/index.action)
 [![Language](http://img.shields.io/badge/language-Objective–C-brightgreen.svg?style=flat
@@ -18,14 +18,14 @@
 ## With CocoaPods
  Just add this line to your podfile.
  ```
- pod 'SwipNavigationController', '1.0.0'
+ pod 'MMSNControllers', '1.0.0'
  ```
 ## Manual installation
  Swipe and Button transition menu.
- Super simple. Just drag & drop SwipNavigationController.h/.m into your project.
+ Super simple. Just drag & drop MMSNControllers.h/.m into your project.
  
 ## Usage
- The simplest way to get up and running with SwipNavigationController is to display a default view. Inside of your view controller, write  the following code:
+ The simplest way to get up and running with MMSNControllers is to display a default view. Inside of your view controller, write  the following code:
  
  ``` objective-c
  UIPageViewController *pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
