@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CDD93DC1BFDA0BD00BF0B64 /* SwipeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD93DB1BFDA0BD00BF0B64 /* SwipeNavigationController.m */; };
+		9CDD93DC1BFDA0BD00BF0B64 /* MMSNControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDD93DB1BFDA0BD00BF0B64 /* MMSNControllers.m */; };
 		9CDD93F91BFDA0C400BF0B64 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93DE1BFDA0C400BF0B64 /* Add.storyboard */; };
 		9CDD93FA1BFDA0C400BF0B64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93E01BFDA0C400BF0B64 /* LaunchScreen.xib */; };
 		9CDD94041BFDA0C400BF0B64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDD93F61BFDA0C400BF0B64 /* Images.xcassets */; };
@@ -24,8 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CDD93DA1BFDA0BD00BF0B64 /* SwipeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeNavigationController.h; sourceTree = "<group>"; };
-		9CDD93DB1BFDA0BD00BF0B64 /* SwipeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeNavigationController.m; sourceTree = "<group>"; };
+		9CDD93DA1BFDA0BD00BF0B64 /* MMSNControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSNControllers.h; sourceTree = "<group>"; };
+		9CDD93DB1BFDA0BD00BF0B64 /* MMSNControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSNControllers.m; sourceTree = "<group>"; };
 		9CDD93DF1BFDA0C400BF0B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Add.storyboard; sourceTree = "<group>"; };
 		9CDD93E11BFDA0C400BF0B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9CDD93F61BFDA0C400BF0B64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		9CDD93D91BFDA0BD00BF0B64 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9CDD93DA1BFDA0BD00BF0B64 /* SwipeNavigationController.h */,
-				9CDD93DB1BFDA0BD00BF0B64 /* SwipeNavigationController.m */,
+				9CDD93DA1BFDA0BD00BF0B64 /* MMSNControllers.h */,
+				9CDD93DB1BFDA0BD00BF0B64 /* MMSNControllers.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 				9CDD941A1BFDA16700BF0B64 /* MainViewController.m in Sources */,
 				9CDD941C1BFDA16700BF0B64 /* SecoundViewController.m in Sources */,
 				9CDD940F1BFDA15D00BF0B64 /* IndexEntity.m in Sources */,
-				9CDD93DC1BFDA0BD00BF0B64 /* SwipeNavigationController.m in Sources */,
+				9CDD93DC1BFDA0BD00BF0B64 /* MMSNControllers.m in Sources */,
 				9CDD941D1BFDA16700BF0B64 /* ThirdViewController.m in Sources */,
 				9CDD94061BFDA0C400BF0B64 /* main.m in Sources */,
 				9CDD94091BFDA14A00BF0B64 /* AppDelegate.m in Sources */,
@@ -308,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = SwipViewControllers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipNavigationControllerExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SwipNavigationController;
 			};
@@ -320,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = SwipViewControllers/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipNavigationControllerExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SwipNavigationController;
 			};
