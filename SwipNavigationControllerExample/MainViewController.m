@@ -24,7 +24,7 @@
  */
 
 #import "AppDelegate.h"
-#import "SwipeNavigationController.h"
+#import "MMSNControllers.h"
 #import "MainViewController.h"
 #import "TopViewController.h"
 #import "SecoundTableViewController.h"
@@ -42,7 +42,7 @@
     [super viewDidLoad];
     UIPageViewController *pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
                                                                            navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
-    SwipeNavigationController *navigationController = [[SwipeNavigationController alloc] initWithRootViewController:pageController];
+    MMSNControllers *navigationController = [[MMSNControllers alloc] initWithRootViewController:pageController];
     
     UIViewController *topVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([TopViewController class])];
     UIViewController *secoundVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([SecoundTableViewController class])];
